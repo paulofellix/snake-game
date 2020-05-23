@@ -4,6 +4,8 @@
 
 This project is a copy of this [tutorial](https://phaser.io/phaser3/devlog/85), with some code refactoring add extra features.
 
+[Live Demo](https://paulofellix.github.io/snake-game/)
+
 ![](https://i.ibb.co/30KmdJk/captured.gif)
 
 ## Technologies
