@@ -1,0 +1,11 @@
+{
+	"extends": ["plugin:prettier/recommended"],
+	"env": {
+		"es6": true
+	},
+	"arrowParens": "always",
+	"tabWidth": 4,
+	"useTabs": true,
+	"bracketSpacing": true,
+	"semi": false
+}

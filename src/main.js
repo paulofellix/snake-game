@@ -1,18 +1,24 @@
-import Phaser from 'phaser'
+import Phaser from "phaser";
 
-import HelloWorldScene from './scenes/HelloWorldScene'
+import MainScene from './scenes/MainScene';
+import GameOverScene from './scenes/GameOverScene'
 
 const config = {
 	type: Phaser.AUTO,
-	width: 800,
-	height: 600,
+	width: 640,
+	height: 480,
 	physics: {
-		default: 'arcade',
+		default: "arcade",
 		arcade: {
-			gravity: { y: 200 }
-		}
+			// debug: true,
+		},
 	},
-	scene: [HelloWorldScene]
-}
+	audio: {
+        disableWebAudio: true
+    },
+	pixelArt: true,
+	backgroundColor: '#bfcc00',
+	scene: [MainScene, GameOverScene],
+};
 
-export default new Phaser.Game(config)
+export default new Phaser.Game(config);
