@@ -1,19 +1,14 @@
 {
-	"name": "phaser3-parcel-template",
+	"name": "Retro Snake game",
 	"version": "1.0.0",
-	"description": "A template project for Phaser3 using Parceljs",
+	"description": "The retro snake game build with Phaser 3",
 	"scripts": {
 		"start": "parcel src/index.html -p 8000",
 		"build": "parcel build src/index.html --out-dir dist",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"author": "supertommy",
+	"author": "paulofellix",
 	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/ourcade/phaser3-parcel-template.git"
-	},
-	"homepage": "https://github.com/ourcade/phaser3-parcel-template",
 	"devDependencies": {
 		"eslint": "^6.8.0",
 		"minimist": ">=1.2.2",
